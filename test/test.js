@@ -7,7 +7,7 @@ describe('GET /', function() {
     request(app).get('/').expect('hello world', done);
   });
   it('respond with hello world', function(done) {
-    request(app).get('/').expect('hello world', done);
+    request(app).get('/').expect('hello world2', done);
   });
 });
 

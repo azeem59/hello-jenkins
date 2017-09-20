@@ -8,7 +8,8 @@
   },
   "devDependencies": {
     "mocha": "1.20.1",
+    "good-mocha-html-reporter": "^1.0.1",
+    "mochawesome": "^2.3.1",
     "supertest": "0.13.0"
-
   }
 }
